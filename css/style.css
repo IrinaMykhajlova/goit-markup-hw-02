@@ -20,6 +20,9 @@ body {
   border: 1px solid #fff;
   margin: 0px auto;
 }
+.container-title {
+  background: #2f303a;
+}
 
 .hide {
   width: 1px;
@@ -61,6 +64,13 @@ body {
   color: var(--maim-color);
 }
 
+.address-color,
+.mail-color,
+.tel-color {
+  margin-left: 35px;
+  color: var(--white-color);
+}
+
 .item:not(:last-child) {
   margin-right: 50px;
 }
@@ -86,6 +96,12 @@ body {
 .link:hover,
 .contacts-link:hover {
   color: #2196f3;
+}
+
+.heros {
+  padding: 200px 0;
+  background: var(--white-color);
+  text-align: center;
 }
 
 .hero {
