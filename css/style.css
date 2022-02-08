@@ -32,6 +32,17 @@ body {
   margin-top: -1px;
 }
 
+.section-list {
+  font-size: 36px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  max-width: 650px;
+  color: #212121;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -64,11 +75,22 @@ body {
   color: var(--maim-color);
 }
 
-.address-color,
+.logo-color-white {
+  color: white;
+}
+.address-color {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
 .mail-color,
 .tel-color {
   margin-left: 35px;
-  color: var(--white-color);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .item:not(:last-child) {
@@ -128,6 +150,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-size: 16px;
+  font-weight: 700;
   line-height: calc(30 / 16);
   letter-spacing: 0.06em;
   color: var(--white-color);
@@ -159,4 +182,36 @@ body {
 .advantages-item {
   flex-basis: calc(100% / 4 - 30px);
   margin-right: 30px;
+}
+
+.advantages-items {
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+
+.container-list {
+  font-weight: 500;
+  font-size: 16px;
+  color: #212121;
+}
+
+.container-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
+}
+
+.containers-list {
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
+}
+
+.containers-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
 }
