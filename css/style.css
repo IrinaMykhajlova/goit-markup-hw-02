@@ -33,11 +33,10 @@ body {
 }
 
 .section-list {
-  font-size: 36px;
+  font-size: 14px;
   line-height: calc(60 / 44);
   text-align: center;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   max-width: 650px;
   color: #212121;
   margin: 0 auto;
@@ -167,11 +166,10 @@ body {
 }
 
 .heros-btn {
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
   border-radius: 4px;
+  padding: 6px 22px;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .advantages-list {
@@ -193,25 +191,25 @@ body {
 .container-list {
   font-weight: 500;
   font-size: 16px;
-  color: #212121;
+  color: var(--maim-color);
 }
 
 .container-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  color: #757575;
+  color: var(--secondary-color);
 }
 
 .containers-list {
   font-size: 18px;
   line-height: 36px;
-  color: #212121;
+  color: var(--maim-color);
 }
 
 .containers-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
-  color: #757575;
+  color: var(--secondary-color);
 }
